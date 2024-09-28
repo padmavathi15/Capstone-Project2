@@ -1,0 +1,58 @@
+.firsth1{
+    color: darkorchid;
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: moveRight 10s linear infinite; /* Animation to move text */
+}
+@keyframes  moveRight {
+    0% {
+        transform: translateX(100%); /* Start off-screen on the left */
+    }
+    100% {
+        transform: translateX(-100%); /* Move off-screen to the right */
+    }
+}
+.card1{
+    margin-top: 1200px;
+}
+h5{
+    text-align: center;
+}
+
+.card-img-top {
+    border-radius: 50%; /* This makes the image circular */
+    width: 100%; /* Ensures the image stays responsive */
+    height: auto; /* Keeps the aspect ratio */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Full page height and centering the card */
+  .bd-example {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Ensuring the container takes full width */
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers the card horizontally within the container */
+  }
+
+h3{
+    color: blue;
+}
+.carousel-caption.text-top {
+    top: 0; /* Move the caption to the top */
+    bottom: auto; /* Reset bottom to auto */
+    transform: translateY(0); /* Optional: fine-tune the position */
+    left: 0;
+    right: 0;
+    padding-top: 20px; /* Add some padding to the top */
+    text-align: center;
+}
